@@ -1,0 +1,18 @@
+.anchor{
+    color: cadetblue;
+    text-decoration: none ;
+}
+.anchor:hover{
+    color: red;
+    font-size: larger;
+    text-decoration: underline;
+    transition: 0.6s;
+
+}
+.anchor:active{
+    color: aqua;
+}
+.anchor:visited{
+    color: brown;
+    
+}

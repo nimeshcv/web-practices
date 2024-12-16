@@ -1,0 +1,46 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px double red;
+    background: linear-gradient(yellow,orange);
+    /* animation-name: rotate_anim; */
+    /* animation-name: skew_anim; */
+    animation-name: scale_anim;
+
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes tran_anim{
+    from{
+        transform: translate(100px,100px);
+    }
+    to{
+        transform: translate(500px,500px);
+    }
+}    
+
+@keyframes rotate_anim{
+    from{
+        transform: rotate(20deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }    
+}
+@keyframes skew_anim{
+    from{
+        transform: skew(20deg);
+    }
+    to{
+        transform: skew(360deg);
+    }    
+}
+@keyframes scale_anim{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2.5);
+    }    
+}
